@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Boardgame_Management.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Boardgame-Management.Core\Boardgame-Management.Core.csproj" />
+    <ProjectReference Include="..\Boardgame-Management.Domain\Boardgame-Management.Domain.csproj" />
+    <ProjectReference Include="..\Boardgame-Management.Infrastructure\Boardgame-Management.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
