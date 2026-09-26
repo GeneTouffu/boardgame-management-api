@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boardgame-Management.Api", "Boardgame-Management.Api\Boardgame-Management.Api.csproj", "{E824F18D-DC6B-424B-A39C-40ADF96BBEE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boardgame-Management.Core", "Boardgame-Management.Core\Boardgame-Management.Core.csproj", "{E40BA8D8-89B3-4CB8-9A80-930D01E90AD2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boardgame-Management.Application", "Boardgame-Management.Application\Boardgame-Management.Application.csproj", "{E40BA8D8-89B3-4CB8-9A80-930D01E90AD2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boardgame-Management.Domain", "Boardgame-Management.Domain\Boardgame-Management.Domain.csproj", "{9B8DE2DA-D852-4209-B6D1-99717E60B7AC}"
 EndProject

@@ -7,6 +7,7 @@
             "name": ".NET Launch API (Development)",
             "program": "${workspaceFolder}/Boardgame-Management.Api/bin/Debug/net9.0/Boardgame-Management.Api.dll",
             "cwd": "${workspaceFolder}/Boardgame-Management.Api",
+            "preLaunchTask": "build-api",
             "stopAtEntry": false,
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
@@ -14,8 +15,8 @@
             },
             "serverReadyAction": {
                 "action": "openExternally",
-                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
-                "uriFormat": "https://localhost:7053/swagger"
+                "pattern": "\\bNow listening on:\\s+https?://localhost:([0-9]+)",
+                "uriFormat": "https://localhost:%s/Scalar/"
             }
         },
         {

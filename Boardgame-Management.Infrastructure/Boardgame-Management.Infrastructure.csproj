@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Boardgame-Management.Core\Boardgame-Management.Core.csproj" />
+    <ProjectReference Include="..\Boardgame-Management.Application\Boardgame-Management.Application.csproj" />
     <ProjectReference Include="..\Boardgame-Management.Domain\Boardgame-Management.Domain.csproj" />
   </ItemGroup>
 

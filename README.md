@@ -15,7 +15,7 @@ The goal is to create a simple but structured system for working with board game
 ## Project structure
 
 - `Boardgame-Management.Api` - API entry point and endpoint setup
-- `Boardgame-Management.Core` - application logic and orchestration
+- `Boardgame-Management.Application` - application logic and orchestration
 - `Boardgame-Management.Domain` - domain models and business concepts
 - `Boardgame-Management.Infrastructure` - supporting services and data-related concerns
 

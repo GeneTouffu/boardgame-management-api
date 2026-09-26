@@ -9,10 +9,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.20" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.17.10" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Boardgame-Management.Core\Boardgame-Management.Core.csproj" />
+    <ProjectReference Include="..\Boardgame-Management.Application\Boardgame-Management.Application.csproj" />
     <ProjectReference Include="..\Boardgame-Management.Domain\Boardgame-Management.Domain.csproj" />
     <ProjectReference Include="..\Boardgame-Management.Infrastructure\Boardgame-Management.Infrastructure.csproj" />
   </ItemGroup>
