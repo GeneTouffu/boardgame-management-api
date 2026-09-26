@@ -9,10 +9,14 @@
             "cwd": "${workspaceFolder}/Boardgame-Management.Api",
             "stopAtEntry": false,
             "env": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS": "https://localhost:7053;http://localhost:5047"
             },
-            "launchBrowser": true,
-            "launchUrl": "http://localhost:5047"
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "https://localhost:7053/swagger"
+            }
         },
         {
             "type": "coreclr",
@@ -23,9 +27,8 @@
             "stopAtEntry": false,
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Production",
-                "ASPNETCORE_URLS": "http://localhost:5048"
-            },
-            "launchBrowser": false
+                "ASPNETCORE_URLS": "https://localhost:7054;http://localhost:5048"
+            }
         }
     ]
 }
