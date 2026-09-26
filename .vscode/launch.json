@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "coreclr",
+            "request": "launch",
+            "name": ".NET Launch API (Development)",
+            "program": "${workspaceFolder}/Boardgame-Management.Api/bin/Debug/net9.0/Boardgame-Management.Api.dll",
+            "cwd": "${workspaceFolder}/Boardgame-Management.Api",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "launchBrowser": true,
+            "launchUrl": "http://localhost:5047"
+        },
+        {
+            "type": "coreclr",
+            "request": "launch",
+            "name": ".NET Launch API (Production)",
+            "program": "${workspaceFolder}/Boardgame-Management.Api/bin/Debug/net9.0/Boardgame-Management.Api.dll",
+            "cwd": "${workspaceFolder}/Boardgame-Management.Api",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Production",
+                "ASPNETCORE_URLS": "http://localhost:5048"
+            },
+            "launchBrowser": false
+        }
+    ]
+}
